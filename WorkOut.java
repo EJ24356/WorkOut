@@ -36,19 +36,19 @@ System.out.println(	"         \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/");
 		}
 
 		Exercise[] arr = new Exercise[numEx];
-    System.out.println("Randomize or Customize?  R/C");
+    System.out.println("Random or Custom workout?  R/C");
       Scanner input = new Scanner (System.in);
           String ans= input.next();
-          if (!(ans.equalsIgnoreCase("Customize")||ans.equalsIgnoreCase("C")||
-        		  ans.equalsIgnoreCase("Randomize")||ans.equalsIgnoreCase("R")))
+          if (!(ans.equalsIgnoreCase("Custom")||ans.equalsIgnoreCase("C")||
+        		  ans.equalsIgnoreCase("Random")||ans.equalsIgnoreCase("R")))
         	  System.exit(0);
-          if (ans.equalsIgnoreCase("Customize")||ans.equalsIgnoreCase("C"))
+          if (ans.equalsIgnoreCase("Custom")||ans.equalsIgnoreCase("C"))
           {
         	do
         	{
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = new Exercise();
-			System.out.println("Exercise: " + (i + 1));
+			System.out.println("Exercise " + (i + 1));
 			
 			System.out.print("Name of exercise: ");
 			name = scan.next();
@@ -84,7 +84,7 @@ System.out.println(	"         \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/");
 		   }while(!b);//while
           }//customize
           
-          else if (ans.equalsIgnoreCase("Randomize")||ans.equalsIgnoreCase("R"))
+          else if (ans.equalsIgnoreCase("Random")||ans.equalsIgnoreCase("R"))
           {
         	  for (int i=0;i<arr.length;i++)
         	  {
