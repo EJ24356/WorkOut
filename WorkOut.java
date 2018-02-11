@@ -49,7 +49,8 @@ System.out.println(	"         \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/");
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = new Exercise();
 			System.out.println("Exercise " + (i + 1));
-			
+			set=false;
+			rep=false;
 			System.out.print("Name of exercise: ");
 			name = scan.next();
 			arr[i].setName(name);//name
