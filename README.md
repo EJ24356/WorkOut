@@ -1,2 +1,2 @@
 # WorkOut
-This is an application that allows users to go through a workout simulation. 
+This is an application that allows users to create a workout plan. 
